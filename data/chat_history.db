@@ -1,4 +1,3 @@
-
 /* chat_history.db */
 -- This is a SQLite database file created by the app.
 -- It stores user login info and chat history.
