@@ -1,1 +1,55 @@
+Company: TCS
+Location: Chennai
+Qualification Required: B.Tech, M.Sc
+Roles: Software Developer, QA Analyst
+Openings: 120
+Contact: hr@tcs.com
+Last Date to Apply: 2025-07-15
 
+Company: Infosys
+Location: Coimbatore
+Qualification Required: B.Sc, MCA
+Roles: Junior Developer, System Support
+Openings: 75
+Contact: careers@infosys.com
+Last Date to Apply: 2025-07-20
+
+Company: Wipro
+Location: Salem
+Qualification Required: B.Tech, MCA
+Roles: Automation Tester, Technical Support
+Openings: 60
+Contact: wiprohr@wipro.com
+Last Date to Apply: 2025-07-10
+
+Company: Zoho
+Location: Madurai
+Qualification Required: B.Sc, B.Tech
+Roles: Software Engineer, Web Developer
+Openings: 30
+Contact: jobs@zoho.com
+Last Date to Apply: 2025-07-25
+
+Company: Cognizant
+Location: Chennai
+Qualification Required: M.Sc, MCA
+Roles: Data Analyst, Cloud Intern
+Openings: 100
+Contact: cognizantcareers@cognizant.com
+Last Date to Apply: 2025-07-18
+
+Company: HCL
+Location: Trichy
+Qualification Required: B.Tech, B.Sc
+Roles: Technical Engineer, Support Analyst
+Openings: 45
+Contact: hcljobs@hcl.com
+Last Date to Apply: 2025-07-22
+
+Company: Accenture
+Location: Chennai
+Qualification Required: B.Tech, MCA, M.Sc
+Roles: Software Developer, Analyst Trainee
+Openings: 90
+Contact: campus@accenture.com
+Last Date to Apply: 2025-07-28
