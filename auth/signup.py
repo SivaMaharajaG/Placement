@@ -1,7 +1,7 @@
 # placement_chatbot_app/auth/signup.py
 import streamlit as st
 import sqlite3
-from auth.signup import show_login
+from auth.login import show_login
 
 def show_signup():
     st.subheader("Sign Up")
