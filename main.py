@@ -4,8 +4,10 @@ from auth.login import show_login
 from auth.signup import show_signup
 from pages.user_page import show_user_page
 from pages.admin_page import show_admin_page
+from db.database import init_db
 
 st.set_page_config(page_title="IT Placement Chatbot", layout="centered")
+init_db()
 
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
