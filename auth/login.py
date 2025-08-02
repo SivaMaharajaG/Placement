@@ -22,7 +22,7 @@ def show_login():
         else:
             st.error("Invalid credentials")
         conn.close()
-    if st.session_state.role == "user":
-        show_user_page()
-    elif st.session_state.role == "admin":
-        show_admin_page()
+if st.session_state.role == "user":
+    show_user_page()
+elif st.session_state.role == "admin":
+    show_admin_page()
