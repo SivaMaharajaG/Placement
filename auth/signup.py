@@ -1,7 +1,6 @@
 # placement_chatbot_app/auth/signup.py
 import streamlit as st
 import sqlite3
-from auth.login import show_login
 
 def show_signup():
     st.subheader("Sign Up")
@@ -25,4 +24,3 @@ def show_signup():
         except sqlite3.IntegrityError:
             st.error("Username already exists.")
         conn.close()
-show_login()
