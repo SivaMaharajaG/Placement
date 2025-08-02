@@ -22,7 +22,7 @@ def show_signup():
             c.execute("INSERT INTO users VALUES (?, ?, ?, ?)", (username, password, qualification, role))
             conn.commit()
             st.success("Account created. Please login.")
-            show_login()
         except sqlite3.IntegrityError:
             st.error("Username already exists.")
         conn.close()
+show_login()
