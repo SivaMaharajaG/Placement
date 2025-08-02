@@ -1,8 +1,6 @@
 # placement_chatbot_app/auth/login.py
 import streamlit as st
 import sqlite3
-from pages.user_page import show_user_page
-from pages.admin_page import show_admin_page
 
 def show_login():
     st.subheader("Login")
