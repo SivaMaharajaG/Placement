@@ -1,6 +1,7 @@
 # placement_chatbot_app/auth/signup.py
 import streamlit as st
 import sqlite3
+from auth.signup import show_login
 
 def show_signup():
     st.subheader("Sign Up")
@@ -21,6 +22,7 @@ def show_signup():
             c.execute("INSERT INTO users VALUES (?, ?, ?, ?)", (username, password, qualification, role))
             conn.commit()
             st.success("Account created. Please login.")
+            show_login()
         except sqlite3.IntegrityError:
             st.error("Username already exists.")
         conn.close()
