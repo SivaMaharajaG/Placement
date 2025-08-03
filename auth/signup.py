@@ -23,4 +23,3 @@ def show_signup():
             st.success("Account created. Please login.")
         except sqlite3.IntegrityError:
             st.error("Username already exists.")
-        conn.close()
