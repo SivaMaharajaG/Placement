@@ -19,5 +19,4 @@ def show_login():
             st.success("Login successful!")
         else:
             st.error("Invalid credentials")
-        conn.close()
 
