@@ -10,4 +10,3 @@ def show_history():
     rows = c.fetchall()
     for q, a in rows:
         st.markdown(f"**Q**: {q}\n\n**A**: {a}")
-    conn.close()
