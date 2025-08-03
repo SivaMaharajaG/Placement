@@ -19,4 +19,3 @@ def show_profile():
                   (new_password or user[0], new_qualification, new_role, username))
         conn.commit()
         st.success("Profile updated successfully")
-    conn.close()
